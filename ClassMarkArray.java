@@ -27,3 +27,7 @@ public class ClassMarksArray {
     int average = total / (marksArray.length * marksArray[0].length);
     return average;
   }
+
+  
+    public static void main(String[] args) {
+  
