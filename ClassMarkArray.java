@@ -20,3 +20,7 @@ public class ClassMarksArray {
           System.out.printf("%s%n", marksArray[x][y]);
         }
         total = total + marksArray[x][y];
+        //System.out.println("total: " + total);
+      }
+    }
+    //Calculate the average
