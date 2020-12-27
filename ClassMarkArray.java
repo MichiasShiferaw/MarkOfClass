@@ -33,3 +33,9 @@ public class ClassMarksArray {
  
     // Creating Array
     int[][] marksArray = new int[4][6];
+
+    int average = classAverage(marksArray);
+
+    System.out.println("The average is: " + average);
+  }
+}
