@@ -30,4 +30,6 @@ public class ClassMarksArray {
 
   
     public static void main(String[] args) {
-  
+ 
+    // Creating Array
+    int[][] marksArray = new int[4][6];
