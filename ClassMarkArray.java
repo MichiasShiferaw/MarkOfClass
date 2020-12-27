@@ -12,3 +12,7 @@ public class ClassMarksArray {
       counter = counter + 1;
       System.out.printf("Student " + counter + " marks   :  ", Integer.toString(x + 1));
       for (int y = 0; y < marksArray[0].length; y++) {
+        //Randomly picks a number for the array from 1 to 100
+        marksArray[x][y] = (int)(Math.random() * 100 + 1);
+        if (y < marksArray[x].length - 1) {
+          System.out.println(marksArray[x][y] + ",  ");
