@@ -16,3 +16,7 @@ public class ClassMarksArray {
         marksArray[x][y] = (int)(Math.random() * 100 + 1);
         if (y < marksArray[x].length - 1) {
           System.out.println(marksArray[x][y] + ",  ");
+        } else {
+          System.out.printf("%s%n", marksArray[x][y]);
+        }
+        total = total + marksArray[x][y];
