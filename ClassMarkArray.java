@@ -24,3 +24,6 @@ public class ClassMarksArray {
       }
     }
     //Calculate the average
+    int average = total / (marksArray.length * marksArray[0].length);
+    return average;
+  }
