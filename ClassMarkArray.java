@@ -8,3 +8,7 @@ public class ClassMarksArray {
     int counter = 0;
 
     for (int x = 0; x < marksArray.length; x++) {
+      //counter is for the student #
+      counter = counter + 1;
+      System.out.printf("Student " + counter + " marks   :  ", Integer.toString(x + 1));
+      for (int y = 0; y < marksArray[0].length; y++) {
